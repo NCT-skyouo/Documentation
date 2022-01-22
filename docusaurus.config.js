@@ -36,6 +36,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      hideableSidebar: true,
       navbar: {
         title: 'Mino Host Docs',
         logo: {
@@ -45,14 +46,16 @@ const config = {
         items: [
           {
             type: 'localeDropdown',
-            position: 'left',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/Mino-Host/Docs',
+            label: 'GitHub',
+            position: 'right',
           },
         ],
       },
-      footer: {
-        style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Mino Host.`,
-      },
+      footer: false,
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
