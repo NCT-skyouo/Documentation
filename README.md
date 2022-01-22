@@ -2,7 +2,7 @@
 
 This is the documentation for Mino Host.
 
-### Document Format:
+### Document Format
 
 ```yaml
 ---
