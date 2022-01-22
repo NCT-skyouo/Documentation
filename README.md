@@ -13,7 +13,7 @@ hide_title: true
 hide_table_of_contents: true
 sidebar_label: <sidebar title>
 description: <short description>
-image: https://bloom.host/assets/images/logo.png
+image: https://www.mino.host/assets/images/logo.png
 ---
 ```
 
