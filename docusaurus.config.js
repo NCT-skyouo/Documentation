@@ -55,7 +55,10 @@ const config = {
           },
         ],
       },
-      footer: false,
+      footer: {
+        style: 'dark',
+        copyright: `Copyright © ${new Date().getFullYear()} Mino Host.`,
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
