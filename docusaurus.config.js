@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Mino Host Docs',
-  tagline: 'Docs for Mino Host',
+  tagline: 'Documentation for Mino Host',
   url: 'https://docs.mino.host',
   baseUrl: '/',
   onBrokenLinks: 'throw',
