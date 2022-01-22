@@ -10,7 +10,7 @@ const config = {
   tagline: 'Documentation for Mino Host',
   url: 'https://docs.mino.host',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Mino-Host', // Usually your GitHub org/user name.
