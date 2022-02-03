@@ -46,15 +46,9 @@ const config = {
                 src: 'img/logo.svg',
             },
             items: [{
-                    type: 'localeDropdown',
-                    position: 'left',
-                },
-                {
-                    href: 'https://github.com/Mino-Host/Docs',
-                    label: 'GitHub',
-                    position: 'right',
-                },
-            ],
+                type: 'localeDropdown',
+                position: 'left',
+            }, ],
         },
         footer: {
             style: 'dark',
